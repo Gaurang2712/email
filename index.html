@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="https://api.web3forms.com/submit" method="POST">
+
+        <input type="hidden" name="access_key" value="0dc9b605-404d-45d0-a4ec-db8d08299e2c">
+        <input type="hidden" name="subject" value="New Submission from Web3Forms">
+        <input type="checkbox" name="botcheck" id="" style="display: none;">
+    
+        <!-- Custom Form Data -->
+        <input type="email" name="email" required>
+        <input type="text" name="name" required>
+        <input type="text" name="phone" required>
+        <textarea name="message" required></textarea>
+    
+        <button type="submit">Submit</button>
+    
+        <div id="result"></div>
+    
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
